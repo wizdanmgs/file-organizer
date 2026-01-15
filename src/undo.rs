@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 use std::fs;
 use std::path::{Path, PathBuf};
 
-const LOG_FILE: &str = ".organize-log.json";
+const LOG_FILE: &str = ".kudu.json";
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct MoveRecord {
